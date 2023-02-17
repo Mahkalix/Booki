@@ -1,0 +1,98 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+/*HEADER*/
+
+header{
+
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex end;
+    margin-left: 77px;
+    
+
+}
+
+nav a {
+    font-weight : 200 ;
+    font-size: 0.9em;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav a:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 20px;
+}
+
+#logo img {
+    position: absolute;
+    height: 30px;
+    margin-left: 55px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+}
+
+#slogan {
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+
+}
+
+.slogan-infos {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.recherche {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 372px;
+}
+
+.icon-search{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.search-bar{
+    position: absolute;
+    width: 300px;
+
+}
+
+.search-button{
+    position: absolute;
+    right: 0;
+}
+
