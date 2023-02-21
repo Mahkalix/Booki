@@ -190,7 +190,6 @@ button:hover {
   display: flex;
   margin-right: 50px;
   margin-left: 50px;
-  border: #0065FC 5px solid;
 }
 
 .accommodation-section{
@@ -251,7 +250,7 @@ button:hover {
   
 .text-picture-accommodation{
   margin-top: 11px;
-  line-height: 9px;
+  
   margin-left: 16px;
 }
   
@@ -464,3 +463,6 @@ footer ul{
   list-style-type: none;
 }
 
+@media all and (min-width:768px) and (max-width:992px){
+
+}
