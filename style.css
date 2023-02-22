@@ -149,6 +149,12 @@ button:hover {
   color: #0065FC;
 }
 
+.filtres h3 {
+font-size: 17px;
+font-weight: 700;
+line-height: 20px;
+}
+
 .filtres:hover{
   background-color: #DEEBFF;  
   border-color: transparent;
@@ -186,26 +192,34 @@ button:hover {
 
 /*ACCOMODATIONS*/
 
-.firstpart{
+.bloc-accommodation-popular{
   display: flex;
   margin-right: 50px;
   margin-left: 50px;
+  border: 5px solid rgb(212, 45, 16);
 }
 
 .accommodation-section{
   background: #F2F2F2;
   width: 60%;
-  height: auto;
+  height: 626px;
   border-radius: 20px;
   margin-right: 40px;
-}
+  border: 5px solid rgb(187, 13, 240);
   
+}
+
+.bloc-accommodation{
+  border: 5px blue solid;
+ 
+}
 .lign1 {
   display: flex;
   justify-content: space-between;
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom:30px ;
+  border: 5px solid rgb(214, 8, 8);
 }
 
 .lign2{
@@ -214,8 +228,7 @@ button:hover {
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom:40px ;
- 
-    
+  border: 5px solid rgb(255, 0, 0);   
 }
  
 .accommodation-section img{
@@ -224,18 +237,17 @@ button:hover {
   height: 124px;
   border-radius: 20px 20px 0 0;   
   margin:auto;
-  
 }
   
 .card-accommodation{
   background-color: #FFFFFF;
-  width: 29%;
-  height: auto;
+  width: 30%;
+  height: 199px;
   border-radius: 20px;
   box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1);
   cursor: pointer;
   border:5px solid #ffffff;
-  
+  transition: 0.4s;
 }
 
 .card-accommodation:hover{
@@ -249,25 +261,33 @@ button:hover {
 }
   
 .text-picture-accommodation{
-  margin-top: 11px;
-  
-  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: -30px;
+  margin-left: 12px;
+  border: #0065FC solid 5px;
 }
   
 .card-accommodation h4{
   font-size: 16px;
   font-weight: 700;
-  margin: auto;
+  text-align: left;
+  margin: 0;
 }
 
 .card-accommodation p{
-  font-weight: 600;
   font-size: 14px;
+  font-weight: 600;
+  line-height: 12px;
+  text-align: left;
+  margin-top: 7px;
+
 }
 
-
 .star-accommodation{
-  font-size: 90%;
+  margin-top: -5%;
+  font-size: 70%;
 }
   
 .colorblue{
@@ -279,18 +299,21 @@ button:hover {
   
  span{  
   margin-left: 44px;
+  margin-bottom: 46px;
   font-weight: 700;
   cursor: pointer;
   font-size: 113%;
+  border: #0065FC solid 5px;
 }
 
   /*POPULAR*/
 
 .popular-section{
   background: #F2F2F2;
-  width: auto;
-  height: 100%;
+  width: 30%;
+  height: 626px;
   border-radius: 20px;
+  border: 5px blue solid;
 }
 
 .title-popular{
@@ -300,7 +323,7 @@ button:hover {
   align-items: center;
   margin-left: 40px;
   margin-right: 50px;
-  
+ 
 }
 
 .fa-chart-line{
@@ -310,23 +333,32 @@ button:hover {
 
 .card-popular{
   display: flex;
-  width: auto;
-  height: 30%;
+  width: 100%;
+  height: 144px;
   background: white;
   margin-bottom: 33px;
   border-radius: 20px;
   box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1);
   cursor: pointer;
+  transition: 0.4s;
 }
 
+ .card-popular a{
+  display: flex;
+  width: 100%;
+  height: 144px;
+  flex-direction: row;
+  width: 343px;
+  height: 144px;
+ }
 .card-popular:hover{
   transform: scale(1.1);
   }
 
 .card-popular img {
   object-fit: cover;
-  width: 132px;
-  height: 144px;
+  width: 40%;
+  height: auto;
   border-radius: 20px 0 0 20px;
   border:5px solid #ffffff;
 }
@@ -334,36 +366,33 @@ button:hover {
 .bloc-popular{
   margin-left: 37px;
   margin-right: 40px;
+  
 }
-
   .star-popular{
-    font-size: 90%;
-    margin-top: 44px;
-    margin-bottom: 12px;
+    font-size: 70%;
+    margin-top: 25%;
+    margin-bottom: 75%;
   }
   .text-picture-popular{
-    margin-left: 15px;
+    margin-left: 2%;
     margin-top: 16px;
+    border: 5px blue solid;
   }
   
-  .card-popular h4{
+  .text-picture-popular h4{
     font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
+    line-height: 118%;
     text-align: left;
     margin: 0;
   }
 
-  .card-popular p{
+  .text-picture-popular p{
     font-size: 14px;
-    font-weight: 600;
-    line-height: 16px;
+    line-height: 12px;
     text-align: left;
     margin-top: 7px;
-
   }
   
-
 
   /*ACTIVITY*/
 
@@ -373,6 +402,7 @@ button:hover {
   height: auto;
   flex-direction: column;
   margin-bottom: 61px; 
+  
 }
 
 .activity-section h2{
@@ -398,12 +428,13 @@ button:hover {
   border-radius: 20px;
   box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1); 
   cursor: pointer;
+  transition: 0.4s;
 }
 
 .card-activity img{
   object-fit: cover;
-  height: 389px;
   width: 100%;
+  height: 389px;
   border-radius: 20px 20px 0 0; 
 }
 
@@ -430,17 +461,16 @@ footer{
   display: flex;
   padding-top: 45px;
   margin-left: 48px;
-  margin-right:53px;   
+  margin-right:53px;  
+  padding-left: 70px;
+  justify-content: space-between;
 }
 
 .section-footer{
-  width: 30%;
+  width: 25%;
   height: auto;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  margin-left: 70px;
- 
 }
 
 footer h4{
@@ -451,10 +481,10 @@ footer h4{
 }
 
 footer a{
+  display: flex;
   font-weight:400;
   font-size: 16px;
   line-height: 30px;
-  list-style-type: none;
   text-decoration: none;
   color: black;
   margin-left: -40px;
