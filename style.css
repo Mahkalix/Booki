@@ -412,13 +412,12 @@ line-height: 20px;
   margin-left:50px;
 }
 
-.card-lign {
+.card-lign{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   margin-left:50px;
-  margin-right:53px
-    
+  margin-right:53px  
 }
 
 .card-activity
