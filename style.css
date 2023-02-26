@@ -132,32 +132,31 @@ button:hover {
 .filter-section{
   display: flex;
   flex-direction: row;
-  width: 100%;
   margin-top: 32px;
   margin-left: 62px;
 }
 
 .title-filter{
- display: flex;
- align-items: center;
-}
-
-.filter-section h3{
   display: flex;
   align-items: center;
+  margin-right: 20px;
   font-size: 18px;
   font-weight: 700;
-  text-align: center;
-}
+ }
 
-.lign-filtre{
-  display: flex;
-  flex-direction: row;
-}
+ .card-filter h3{
+  font-size: 17px;
+  font-weight: 700;
+  } 
+  
+  .lign-filtre{
+    display: flex;
+  }
+
 .allcard-filter{
-  display: flex;
-  width: 100%;
-  margin-right: 120px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
 }
 .card-filter{
   border: 2px solid #D9D9D9;
@@ -165,24 +164,9 @@ button:hover {
   border-radius: 25px;
   display: flex;
   align-items: center;
+  width: 100%;
   height: 50px;
-  margin-left: 20px;
-}
-
-.dog{
-width: 230px;
-}
-
-.money{
-  width: 180px;
-}
-
-.child{
-  width: 140px;
-}
-
-.heart {
-  width: 170px;
+  margin-right: 20px;
 }
 
 .card-filter:hover{
@@ -190,44 +174,53 @@ width: 230px;
   border-color: transparent;
   cursor: pointer;
 }
+
+.heart{
+
+  width: 170px;
+}
+
+.dog{
+width: 220px;
+}
+.money{
   
+width: 160px;
+}
+.child{
+  
+width: 130px;
+}
 .icon-filter .fa-dog{
-  height: 100%;
-  width: 22px;
+  display: flex;
+  align-items: center;
   color: #0065FC;
-  margin-left: 5px;
-  margin-right: 5px;
+  height: 22px;
+  width: 22px;
 }
 
 .icon-filter .fa-money-bill-wave{
-  height: 100%;
+  display: flex;
+  align-items: center;
+  height: 16px;
   width: 22px;
-  color: #0065FC;
-  margin-left: 5px;
-  margin-right: 5px;
+ color: #0065FC;
 }
 .icon-filter .fa-child{
-  height: 100%;
+  display: flex;
+  align-items: center;
+  height: 22px;
   width: 14px;
-  border: #0065FC solid 3px;
   color: #0065FC;
-  margin-left: 5px;
-  margin-right: 5px;
-  
 }
 .icon-filter .fa-heart{
-  height: 100%;
- width: 22px;
+  display: flex;
+  align-items: center;
+  height: 19px;
+  width: 22px;
   color: #0065FC;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
-.card-filter h3{
-border: #fc7a00 4px solid; 
-font-size: 17px;
-font-weight: 700;
-}
 
 /*INFOS*/
 
@@ -396,8 +389,6 @@ font-weight: 700;
   border-radius: 20px;
   box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1);
   cursor: pointer;
-
-  
 }
 
  .card-popular a{
@@ -408,10 +399,10 @@ font-weight: 700;
   width: 343px;
   height: 144px;
  }
+
 .card-popular:hover{
   transform: scale(1.1);
   transition:0.4s;
-  
   }
 
 .card-popular img {
@@ -796,33 +787,35 @@ button:hover {
 
 .filter-section{
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  flex-direction: column;
   margin-top: 32px;
-  margin-left: 62px;
 }
+
 
 .title-filter{
- display: flex;
- align-items: center;
-}
-
-.filter-section h3{
   display: flex;
   align-items: center;
   font-size: 18px;
   font-weight: 700;
   text-align: center;
-}
+  margin-bottom: 22px;
+ }
 
+ .card-filter h3{
+  font-size: 17px;
+  font-weight: 700;
+  } 
+  
 .lign-filtre{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-bottom: 17px;
+
 }
 .allcard-filter{
+  margin-right: 50px;
   display: flex;
-  width: 100%;
-  margin-right: 120px;
+  flex-direction: column;
 }
 .card-filter{
   border: 2px solid #D9D9D9;
@@ -830,11 +823,9 @@ button:hover {
   border-radius: 25px;
   display: flex;
   align-items: center;
-  margin-left: 20px;
   height: 50px;
-  width: 160px;
+  width: 100%;
 }
-
 
 .card-filter:hover{
   background-color: #DEEBFF;  
@@ -842,42 +833,6 @@ button:hover {
   cursor: pointer;
 }
   
-.icon-filter .fa-dog{
-  height: 100%;
-  width: 22px;
-  color: #0065FC;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.icon-filter .fa-money-bill-wave{
-  height: 100%;
-  width: 22px;
-  color: #0065FC;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.icon-filter .fa-child{
-  height: 100%;
-  width: 14px;
-  color: #0065FC;
-  margin-left: 5px;
-  margin-right: 5px;
-  
-}
-.icon-filter .fa-heart{
-  height: 100%;
- width: 22px;
-  color: #0065FC;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.card-filter h3{
-
-font-size: 11px;
-font-weight: 700;
-}
 
 /*ACCOMMODATIONS/POPULAR*/
 
@@ -890,26 +845,32 @@ font-weight: 700;
 }
 
 /*ACCOMODATIONS*/
+
+.accommodation-section h1{
+  margin-left:  20px;
+}
+  
 .lign{
   display: flex;
   justify-content: space-between;
   margin-bottom:12px;
   flex-direction: column;
+
 }
 
 .accommodation-section{
 background: #ffffff;
 width: 100%;
-height: 626px;
+height: 1400px;
 margin-right: 40px;
+border-radius: 0;
 
 }
 .bloc-accommodation{
-  width: auto;
-  height: auto;
-margin-right: 40px;
-margin-left: 40px;
-border: #0065FC solid 3px;
+width: auto;
+height: auto;
+margin-right: 20px;
+margin-left: 20px;
 }
 
 .card-accommodation{
@@ -920,17 +881,19 @@ border-radius: 20px;
 box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1);
 cursor: pointer;
 border:5px solid #ffffff;
-border: #0065FC solid 3px;
 margin-bottom:12px;
 }
 
-
+span{  
+  display: none;
+}
 
 /*POPULAR*/
 
 .popular-section{
   
 background: #F2F2F2;
+border-radius: 0;
 width: 100%;
 height: 580px;
 }
@@ -940,57 +903,97 @@ height: 580px;
 display: flex;
 margin-left: 37px;
 margin-right: 40px;
-flex-direction: row;
+flex-direction: column;
 justify-content: space-between;
 }
 
 .card-popular{
 display: flex;
-width: 30%;
+width: 100%;
 height: 144px;
 background: white;
-margin-bottom: 33px;
+margin-bottom: 11px;
 border-radius: 20px;
 box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1);
 cursor: pointer;
 
 }
 
-/*ACTIVTY*/
+ /*ACTIVITY*/
 
-.activity-section{
-display: flex;
-flex-direction: column;
-margin-bottom: 30px; 
-margin-left: 50px;
-margin-right: 53px;
+ .activity-section{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px; 
+  margin-left: 50px;
+  margin-right: 53px;
+}
+
+.activity-section h1{
+  font-weight: 700;
+  font-size: 22px;  
+  margin-left: 22px;
 }
 
 .card-lign{
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-height: 267px;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  margin-left: 22px ;
+  margin-right: 22px;
 }
 
 .card-activity
 {
-width: 22%;
-height: 267px;
-border-radius: 20px;
-box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1); 
-cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 199px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1); 
+  margin-bottom: 24px;
+  cursor: pointer;
 }
 
 .card-activity img{
-object-fit: cover;
-width: 100%;
-height: 211px;
-border-radius: 20px 20px 0 0; 
+  object-fit: cover;
+  width: 100%;
+  height: 134px;
+  border-radius: 20px 20px 0 0; 
 }
 
-.activity-section h1{
-font-weight: 700;
-font-size: 22px;  
+.card-activity:hover{
+  transform: scale(1.1);
+  }
+
+.card-activity h3{
+  display: flex;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+  margin-left: 19px;
+  font-weight: 700;
+  margin-top: 10px;
+  align-content: center;
+}
+
+/*FOOTER*/
+
+footer{
+  
+  background:#F2F2F2;
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+  padding-left: 33px;
+  justify-content: space-between;
+}
+
+.section-footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
 
 }
