@@ -322,6 +322,7 @@ width: 130px;
   width: 80%;
   height: 70px;
   margin-left: 12px;
+  position: relative;
 }
   
 .card-accommodation h3{
@@ -341,8 +342,10 @@ width: 130px;
 
 .star-accommodation{
   font-size: 70%;
-  position:relative;
+  position:absolute;
+  top: 55px;
 }
+
 .colorblue{
   color: #0065fc;
 }
@@ -427,12 +430,13 @@ width: 130px;
 }
   .star-popular{
     font-size: 70%;
-    position:relative;
-    top: 40px; left: 5px;
+    position:absolute;
+    top: 100px; 
   }
   .text-picture-popular{
     margin-left: 2%;
     margin-top: 16px;
+    position: relative;
   }
   
   .text-picture-popular h3{
@@ -585,12 +589,6 @@ footer ul{
   border:5px solid #ffffff;
 }
 
-.star-accommodation{
-  font-size: 70%;
-  position:relative;
-  top: 10px; left: 0px;
-}
-
 
 
   /*POPULAR*/
@@ -621,11 +619,6 @@ footer ul{
   box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1);
   cursor: pointer;
   
-}
-.star-popular{
-  font-size: 70%;
-  position:relative;
-  top: 30px; left: 5px;
 }
 
 /*ACTIVTY*/
@@ -909,12 +902,6 @@ margin-bottom:12px;
 span{  
   display: none;
 }
-.star-accommodation{
-  font-size: 70%;
-  position:relative;
-  top: 10px; left: 0px;
-}
-
 
 
 /*POPULAR*/
@@ -946,11 +933,6 @@ border-radius: 20px;
 box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1);
 cursor: pointer;
 
-}
-.star-popular{
-  font-size: 70%;
-  position:relative;
-  top: 45px; left: 5px;
 }
 
 
