@@ -340,10 +340,9 @@ width: 130px;
 }
 
 .star-accommodation{
-  margin-top: -5px;
   font-size: 70%;
+  position:relative;
 }
-  
 .colorblue{
   color: #0065fc;
 }
@@ -428,8 +427,8 @@ width: 130px;
 }
   .star-popular{
     font-size: 70%;
-    margin-top: 25%;
-    margin-bottom: 75%;
+    position:relative;
+    top: 40px; left: 5px;
   }
   .text-picture-popular{
     margin-left: 2%;
@@ -586,6 +585,12 @@ footer ul{
   border:5px solid #ffffff;
 }
 
+.star-accommodation{
+  font-size: 70%;
+  position:relative;
+  top: 10px; left: 0px;
+}
+
 
 
   /*POPULAR*/
@@ -616,6 +621,11 @@ footer ul{
   box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1);
   cursor: pointer;
   
+}
+.star-popular{
+  font-size: 70%;
+  position:relative;
+  top: 30px; left: 5px;
 }
 
 /*ACTIVTY*/
@@ -899,6 +909,13 @@ margin-bottom:12px;
 span{  
   display: none;
 }
+.star-accommodation{
+  font-size: 70%;
+  position:relative;
+  top: 10px; left: 0px;
+}
+
+
 
 /*POPULAR*/
 
@@ -930,6 +947,12 @@ box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1);
 cursor: pointer;
 
 }
+.star-popular{
+  font-size: 70%;
+  position:relative;
+  top: 45px; left: 5px;
+}
+
 
  /*ACTIVITY*/
 
