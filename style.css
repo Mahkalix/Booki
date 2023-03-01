@@ -181,20 +181,20 @@ button:hover {
 
 .heart{
 
-width: 170px;
-}
-
-.dog{
-width: 220px;
-}
-.money{
+  width: 150px;
+  }
   
-width: 160px;
-}
-.person{
-  
-width: 130px;
-}
+  .dog{
+  width: 210px;
+  }
+  .money{
+    
+  width: 160px;
+  }
+  .person{
+    
+  width: 120px;
+  }
  .fa-dog{
   display: flex;
   align-items: center;
@@ -552,7 +552,90 @@ footer ul{
 
 @media screen and (max-width:992px){
 
- 
+  /*FILTERS*/
+
+.filter-section{
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  margin-left: 62px;
+}
+
+.title-filter{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 700;
+ }
+
+ .card-filter h3{
+  font-size: 17px;
+  font-weight: 700;
+  } 
+  
+  .lign-filtre{
+    display: flex;
+  }
+
+.allcard-filter{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.card-filter{
+  border: 2px solid #D9D9D9;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-right: 20px;
+  
+}
+
+.card-filter:hover{
+  background-color: #DEEBFF;  
+  border-color: transparent;
+  cursor: pointer;
+}
+
+
+}
+ .fa-dog{
+  display: flex;
+  align-items: center;
+  color: #0065FC; 
+  font-size: 19px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.fa-money-bill-wave{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+ color: #0065FC;
+ margin-left: 10px;
+ margin-right: 5px;
+}
+.fa-person{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #0065FC;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.fa-heart{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #0065FC;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
   /*ACCOMMODATIONS/POPULAR*/
 
   .bloc-accommodation-popular{
@@ -678,7 +761,6 @@ footer{
   flex-direction: column;
 }
 
-}
 
 
 @media screen and (max-width:778px){
