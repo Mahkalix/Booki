@@ -75,6 +75,7 @@ nav a:hover{
 
 .icon-search {
   width: 50px;
+  height: 50px;
   background: #F2F2F2;
   border: 1px solid #F2F2F2;
   border-radius: 15px 0px 0px 15px; 
@@ -157,7 +158,6 @@ button:hover {
   }
 
 .allcard-filter{
-    margin-right: 50px;
     display: flex;
     flex-direction: row;
 }
@@ -170,7 +170,6 @@ button:hover {
   width: 100%;
   height: 40px;
   margin-right: 20px;
-  
 }
 
 .card-filter:hover{
@@ -179,22 +178,23 @@ button:hover {
   cursor: pointer;
 }
 
-.heart{
+.dog{
+  width: 200px;
+  }
 
-  width: 150px;
-  }
-  
-  .dog{
-  width: 210px;
-  }
-  .money{
-    
-  width: 160px;
-  }
-  .person{
-    
-  width: 120px;
-  }
+  .heart{
+
+    width: 150px;
+    }
+    .money{
+      
+    width: 155px;
+    }
+    .person{
+      
+    width: 120px;
+    }
+
  .fa-dog{
   display: flex;
   align-items: center;
@@ -570,7 +570,7 @@ footer ul{
  }
 
  .card-filter h3{
-  font-size: 17px;
+  font-size: 13px;
   font-weight: 700;
   } 
   
@@ -579,7 +579,6 @@ footer ul{
   }
 
 .allcard-filter{
-    margin-right: 50px;
     display: flex;
     flex-direction: row;
 }
@@ -600,41 +599,24 @@ footer ul{
   cursor: pointer;
 }
 
+.dog{
+  width: 170px;
+  }
 
-}
- .fa-dog{
-  display: flex;
-  align-items: center;
-  color: #0065FC; 
-  font-size: 19px;
-  margin-left: 10px;
-  margin-right: 5px;
-}
+  .heart{
 
-.fa-money-bill-wave{
-  display: flex;
-  align-items: center;
-  font-size: 16px;
- color: #0065FC;
- margin-left: 10px;
- margin-right: 5px;
-}
-.fa-person{
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-  color: #0065FC;
-  margin-left: 10px;
-  margin-right: 5px;
-}
-.fa-heart{
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-  color: #0065FC;
-  margin-left: 10px;
-  margin-right: 5px;
-}
+    width: 130px;
+    }
+    
+
+    .money{
+      
+    width: 125px;
+    }
+    .person{
+      
+    width: 100px;
+    }
 
   /*ACCOMMODATIONS/POPULAR*/
 
@@ -761,6 +743,7 @@ footer{
   flex-direction: column;
 }
 
+} 
 
 
 @media screen and (max-width:778px){
@@ -778,8 +761,7 @@ header {
   justify-content: space-between; 
   flex-direction: column;
   align-items: center;
-  margin-right: 50px;
-  margin-left: 55px;
+  margin:0;
 }
 
 nav{
@@ -795,19 +777,42 @@ nav a{
   padding-bottom: 23px;
 }
 
+
 nav a:hover{
   color:#0065FC;
   border-bottom: #0065FC solid 3px;
   border-top: none;
+  
 }
 
+/*TAGLINE*/
+
+
+
+.tagline-section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 57px;
+}
+
+.tagline-infos {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.tagline-infos h1 {
+  font-size: 22px;
+
+}
 /*SEARCH BAR*/ 
 
 .searchbar-section{
   display: flex;
   flex-direction: column;
-  margin-left: 55px;
-  margin-right: 50px;
+  margin-left: 22px;
+  margin-right:22px ;
 }
 
 
@@ -816,19 +821,8 @@ nav a:hover{
   flex-direction: row;
 }
 
-.icon-search {
-  width: 50px;
-  background: #F2F2F2;
-  border: 1px solid #F2F2F2;
-  border-radius: 15px 0px 0px 15px; 
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  
-}
-
 .input {
-  height: 49px;
+  width: 60%;
   font-size:18px;
   font-weight: 700;
   background: white;
@@ -845,12 +839,12 @@ nav a:hover{
 }
 .input::placeholder {
   color:black;
+  overflow: ;
 }
 
 .search-button{
   display: none;
 }
-
 
 .search-magnifying-glass{
   display: flex;
@@ -863,9 +857,10 @@ nav a:hover{
   background: #0065FC;
   border-style: none;
   height: 52.5px;
-  width: 132px;
+  width: 30%;
   border-radius: 0px 15px 15px 0px;
 }
+
 button:hover {
   background-color: #0255d3;
   cursor:pointer;
@@ -886,6 +881,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   margin-top: 32px;
+  margin-left: 20px;
+  margin-right: 21px;
 }
 
 
@@ -899,7 +896,7 @@ button:hover {
  }
 
  .card-filter h3{
-  font-size: 17px;
+  font-size: 11px;
   font-weight: 700;
   } 
   
@@ -907,11 +904,11 @@ button:hover {
   display: flex;
   flex-direction: row;
   margin-bottom: 17px;
-
+  margin:0;
 }
 .allcard-filter{
-  margin-right: 50px;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
 }
 .card-filter{
@@ -922,6 +919,7 @@ button:hover {
   align-items: center;
   height: 50px;
   width: 100%;
+  margin-bottom: 17px;
 }
 
 .card-filter:hover{
@@ -930,6 +928,17 @@ button:hover {
   cursor: pointer;
 }
   
+/*INFOS*/
+
+
+.infos {
+  display: flex;
+  align-items: center;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  margin-right: 22px;
+  margin-left: 20px;
+}
 
 /*ACCOMMODATIONS/POPULAR*/
 
@@ -937,8 +946,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   flex-direction: column-reverse;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin:0;
 }
 
 /*ACCOMODATIONS*/
@@ -952,15 +960,13 @@ button:hover {
   justify-content: space-between;
   margin-bottom:12px;
   flex-direction: column;
-
 }
 
 .accommodation-section{
 background: #ffffff;
 width: 100%;
 height: 1400px;
-margin-right: 40px;
-border-radius: 0;
+margin-right: 0;
 
 }
 .bloc-accommodation{
@@ -1023,9 +1029,7 @@ cursor: pointer;
  .activity-section{
   display: flex;
   flex-direction: column;
-  margin-bottom: 80px; 
-  margin-left: 50px;
-  margin-right: 53px;
+  margin:0;
 }
 
 .activity-section h1{
@@ -1047,10 +1051,10 @@ cursor: pointer;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 199px;
+  height: 190px;
   border-radius: 20px;
   box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.1); 
-  margin-bottom: 24px;
+  margin-bottom: 0;
   cursor: pointer;
 }
 
@@ -1059,6 +1063,7 @@ cursor: pointer;
   width: 100%;
   height: 134px;
   border-radius: 20px 20px 0 0; 
+  margin:0;
 }
 
 .card-activity:hover{
@@ -1086,6 +1091,8 @@ footer{
   padding-top: 45px;
   padding-left: 33px;
   justify-content: space-between;
+  margin:0;
+  margin-top: 80px;
 }
 
 .section-footer{
