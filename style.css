@@ -537,6 +537,8 @@ footer ul{
   list-style-type: none;
 }
 
+/*TABLETTE*/
+
 @media screen and (max-width:992px){
 
   /*FILTERS*/
@@ -730,7 +732,7 @@ footer{
 
 } 
 
-
+/*MOBILE*/
 @media screen and (max-width:778px){
 
   
