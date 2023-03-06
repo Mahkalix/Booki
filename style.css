@@ -43,14 +43,12 @@ nav a:hover{
   border-top: #0065FC solid 2px;
 }
 
-/*TAGLINE*/
-
-.tagline-section{
-  display: flex;
-  flex-direction: column;
+/*UNDER-HEADER*/
+.under-header{
   margin-left: 55px;
   margin-right: 50px;
 }
+/*TAGLINE*/
 
 .tagline-infos {
   display: flex;
@@ -59,14 +57,6 @@ nav a:hover{
 }
 
 /*SEARCH BAR*/ 
-
-.searchbar-section{
-  display: flex;
-  flex-direction: column;
-  margin-left: 55px;
-  margin-right: 50px;
-}
-
 
 .search-bar {
   display: flex;
@@ -137,7 +127,6 @@ button:hover {
   display: flex;
   flex-direction: row;
   margin-top: 32px;
-  margin-left: 62px;
 }
 
 .title-filter{
@@ -148,7 +137,7 @@ button:hover {
   font-weight: 700;
  }
 
- .card-filter h3{
+ .card-filter p{
   font-size: 17px;
   font-weight: 700;
   } 
@@ -238,8 +227,6 @@ button:hover {
   align-items: center;
   margin-top: 39px;
   margin-bottom: 39px;
-  margin-right: 50px;
-  margin-left: 59px;
 }
 
 .icon-infos i{
@@ -325,7 +312,7 @@ button:hover {
   position: relative;
 }
   
-.card-accommodation h3{
+.card-accommodation h2{
   font-size: 13px;
   text-align: left;
   margin: 0;
@@ -439,7 +426,7 @@ button:hover {
     position: relative;
   }
   
-  .text-picture-popular h3{
+  .text-picture-popular h2{
     font-size: 13px;
     line-height: 118%;
     text-align: left;
@@ -497,7 +484,7 @@ button:hover {
   transform: scale(1.1);
   }
 
-.card-activity h3{
+.card-activity h2{
   display: flex;
   font-weight: 700;
   font-size: 16px;
@@ -557,8 +544,6 @@ footer ul{
 .filter-section{
   display: flex;
   flex-direction: row;
-  margin-top: 32px;
-  margin-left: 62px;
 }
 
 .title-filter{
@@ -569,7 +554,7 @@ footer ul{
   font-weight: 700;
  }
 
- .card-filter h3{
+ .card-filter p{
   font-size: 13px;
   font-weight: 700;
   } 
@@ -748,6 +733,8 @@ footer{
 
 @media screen and (max-width:778px){
 
+  
+
  /*HEADER*/
 
 header img {
@@ -773,7 +760,7 @@ nav{
 
 nav a{
   display: flex;
-  width:50%;
+  width:100%;
   padding-bottom: 23px;
 }
 
@@ -785,16 +772,13 @@ nav a:hover{
   
 }
 
-/*TAGLINE*/
-
-
-
-.tagline-section{
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  margin-right: 57px;
+/*UNDER-HEADER*/
+.under-header{
+  margin-left: 22px;
+  margin-right: 22px;
 }
+
+/*TAGLINE*/
 
 .tagline-infos {
   display: flex;
@@ -807,13 +791,6 @@ nav a:hover{
 
 }
 /*SEARCH BAR*/ 
-
-.searchbar-section{
-  display: flex;
-  flex-direction: column;
-  margin-left: 22px;
-  margin-right:22px ;
-}
 
 
 .search-bar {
@@ -839,7 +816,7 @@ nav a:hover{
 }
 .input::placeholder {
   color:black;
-  overflow: ;
+  overflow: hidden;
 }
 
 .search-button{
@@ -881,8 +858,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   margin-top: 32px;
-  margin-left: 20px;
-  margin-right: 21px;
 }
 
 
@@ -895,7 +870,7 @@ button:hover {
   margin-bottom: 22px;
  }
 
- .card-filter h3{
+ .card-filter p{
   font-size: 11px;
   font-weight: 700;
   } 
@@ -903,8 +878,6 @@ button:hover {
 .lign-filtre{
   display: flex;
   flex-direction: row;
-  margin-bottom: 17px;
-  margin:0;
 }
 .allcard-filter{
   display: flex;
@@ -927,6 +900,8 @@ button:hover {
   border-color: transparent;
   cursor: pointer;
 }
+
+
   
 /*INFOS*/
 
@@ -934,10 +909,13 @@ button:hover {
 .infos {
   display: flex;
   align-items: center;
-  margin-top: 39px;
-  margin-bottom: 39px;
-  margin-right: 22px;
-  margin-left: 20px;
+  margin-top: 26px;
+  margin-bottom: 35px;
+}
+
+.infos p{
+  margin: 0;
+  margin-left:11px;
 }
 
 /*ACCOMMODATIONS/POPULAR*/
@@ -1070,7 +1048,7 @@ cursor: pointer;
   transform: scale(1.1);
   }
 
-.card-activity h3{
+.card-activity h2{
   display: flex;
   font-weight: 700;
   font-size: 16px;
