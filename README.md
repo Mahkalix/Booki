@@ -4,7 +4,7 @@
 # Booki
 <svg src="./image/logo/Booki.png" alt="logo" class="logo">
 
-Booki is small business which allows users to plan their holidays by finding accomodation and activities in a specific area. The users can also uses filters to browse the results accord to specific thematics.
+The bookie is a small business which allows users to plan their holidays by finding accommodation and activities in a specific area. The users can also use filters to browse the results accord to specific themes.
 
 ## Languages and Tools        
 <p align="left"> 
