@@ -13,5 +13,5 @@ Booki is a small business which allows users to plan their holidays by finding a
 </p>
 
 
-### Good visit >  https://mahkalix.github.io/Projet_3/
+
 
