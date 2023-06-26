@@ -2,6 +2,9 @@
 
 
 # Booki
+
+n°3 of Openclassroom's Project 
+
 <svg src="./image/logo/Booki.png" alt="logo" class="logo">
 
 Booki is a small business which allows users to plan their holidays by finding accommodation and activities in a specific area. The users can also use filters to browse the results accord to specific themes.
